@@ -1,0 +1,151 @@
+body {
+    background-image: url("https://cdn.glitch.global/56e31cba-0dbf-4de8-b101-a7d3ecd663d7/back.jpg?v=1648579764723");
+    background-color: #fe5d45;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  min-height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border: dotted 10px black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f5f2e8;
+  opacity: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #fe5d45;
+    font-size: 80px;
+    color: black;
+    font-style: bold;
+    font-family: 'Audiowide', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f5f2e8;
+    border: 2px dotted #f5f2e8;
+    border-radius: 5px;
+    padding: 10px;
+  opacity: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Cambay', sans-serif;
+    color: #fe5d45;
+}
+
+.btn, #submit {
+    background-color: #fe5d45;
+    color: black;
+    font-size: 20px;
+    font-family: 'Cambay', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.btn:hover {
+    background-color: #D9CE3F;
+}
+
+#submit:hover {
+    background-color: #D9CE3F;
+}
+
+#guess {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cambay', sans-serif;
+    border: solid 2px #fe5d45;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 1024px) {
+
+    h1 {
+        font-size: 65px;
+      margin-top: 150px;
+    }
+}
+
+@media all and (max-width: 414px) {
+
+    h1 {
+        font-size: 25px;
+      margin-top: 150px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 340px;
+        height: 450px;
+      margin-top: 5px;
+    }
+
+    #guess {
+        width: 170px;
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    h1 {
+        font-size: 25px;
+      margin-top: 100px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 340px;
+        height: 450px;
+      margin-top: 20px;
+    }
+
+    #guess {
+        width: 170px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    h1 {
+        font-size: 25px;
+      margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 340px;
+        height: 450px;
+      margin-top: 5px;
+    }
+
+    #guess {
+        width: 170px;
+    }
+}
